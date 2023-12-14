@@ -11,7 +11,8 @@ app.use(cors());
 app.use("/", note);
 dotenv.config();
 
-const uri = process.env.URI
+// const uri = process.env.URI
+const uri = "mongodb+srv://yuanquan7266:3DEuAJMlSZgVurfi@cluster0.ecgq0sq.mongodb.net/?retryWrites=true&w=majority"
 
 async function connect() {
     try {
