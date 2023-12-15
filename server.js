@@ -8,7 +8,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
-app.use("/", note);
+app.use("/api", note);
 dotenv.config();
 
 // const uri = process.env.URI
